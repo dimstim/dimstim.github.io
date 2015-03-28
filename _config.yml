@@ -1,4 +1,4 @@
-# This file configures your site
+## This file configures your site
 
 # Site name (displayed in the header), access with {{ site.name }}:
 name: Site name
@@ -9,7 +9,13 @@ tagline: Site tagline
 # Path to GitHub respository, appended to https://github.com/, access with {{ site.repo }}:
 repo: path/to/repo
 
-# other configuration options:
+## other configuration options:
+
 #markdown: kramdown # doesn't seem to syntax highlight
 markdown: redcarpet
 highlighter: pygments
+
+# Exclude these files from your production _site:
+exclude:
+    - LICENSE
+    - README.md
