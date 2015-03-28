@@ -1,13 +1,13 @@
 ## This file configures your site
 
 # Site name (displayed in the header), access with {{ site.name }}:
-name: Site name
+name: dimstim
 
 # Site tagline (displayed in the header), access with {{ site.tagline }}:
-tagline: Site tagline
+tagline: A Python package for generating multidimensional visual stimuli with high temporal precision
 
 # Path to GitHub respository, appended to https://github.com/, access with {{ site.repo }}:
-repo: path/to/repo
+repo: dimstim/dimstim
 
 ## other configuration options:
 
