@@ -5,8 +5,8 @@ layout: index
 ---
 
 dimstim is the custom written, open source, cross-platform, visual stimulus software used by
-the [Swindale lab](http://swindale.ecc.ubc.ca). It's written in [Python](http://python) and
-uses [Andrew Straw](https://github.com/astraw)'s [Vision Egg](http://visionegg.org) Python
+the [Swindale lab](http://swindale.ecc.ubc.ca). It's written in [Python](http://python.org)
+and uses [Andrew Straw](https://github.com/astraw)'s [Vision Egg](http://visionegg.org) Python
 graphics library. Vision Egg itself does all drawing to screen via
 [OpenGL](http://opengl.org|OpenGL).
 
@@ -20,7 +20,7 @@ frequencies. Spatial parameters are specified in degrees of spatial angle, given
 to the screen.
 
 Stimulus parameters are communicated on a frame-by-frame basis to an acquisition computer via
-a [Data Translation](http://www.datatranslation.com) digital output board, for simultaneous
+a [Data Translation](http://datatranslation.com) digital output board, for simultaneous
 recording of stimulus timing and neuronal responses.
 
 Note that recent versions have only been tested in Windows. They should be possible to run in
@@ -44,22 +44,3 @@ Example script
 ==============
 
 An example dimstim script with a description will be posted here soon.
-
-{% comment %}
-
-This is a test!
-
-Here is an *image*, an **image**!
-
-![image description here](images/sprite_download.png)
-
-# This is a header
-
-Here is some test Python code:
-
-```python
-for i in range(10):
-    print('hello world')
-```
-
-{% endcomment %}
