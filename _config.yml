@@ -1,0 +1,15 @@
+# This file configures your site
+
+# Site name (displayed in the header), access with {{ site.name }}:
+name: Site name
+
+# Site tagline (displayed in the header), access with {{ site.tagline }}:
+tagline: Site tagline
+
+# Path to GitHub respository, appended to https://github.com/, access with {{ site.repo }}:
+repo: path/to/repo
+
+# other configuration options:
+#markdown: kramdown # doesn't seem to syntax highlight
+markdown: redcarpet
+highlighter: pygments
