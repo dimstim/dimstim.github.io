@@ -9,7 +9,7 @@ tagline: A Python package for generating multidimensional visual stimuli with hi
 # Path to GitHub respository, appended to https://github.com/, access with {{ site.repo }}:
 repo: dimstim/dimstim
 
-## other configuration options:
+## Other configuration options:
 
 #markdown: kramdown # doesn't seem to syntax highlight
 markdown: redcarpet
