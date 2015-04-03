@@ -91,10 +91,10 @@ In this example, grating orientation, spatial and temporal frequency are the onl
 assigned multiple values, and therefore the only ones to vary from one stimulus "sweep" (6 sec
 in duration) to the next. Each varies independently because each is set to a different
 dimension (second code block from bottom). This script can be modified into a flashed grating
-experiment by setting the temporal frequency (`tfreqCycSec`) to 0, setting the phase
-(`phase0`) to a range of values in degrees, and decreasing the sweep duration (`sweepSec`).
-The stimulus is centered on-screen according to the position previously set by a manually
-controlled oriented bar (`"Manbar0"`) stimulus. Some initialization code and stimulus
-parameters are omitted for brevity. Comments are preceded by a `#`. More example scripts, one
-for each stimulus type, can be found in the
-[examples](https://github.com/dimstim/dimstim/tree/master/examples) folder.
+experiment by setting the orientation (`ori`) to vary from 0 to 180 degrees instead of 0 to
+360, setting the temporal frequency (`tfreqCycSec`) to 0, setting the phase (`phase0`) to a
+range of values in degrees, and decreasing the sweep duration (`sweepSec`). The stimulus is
+centered on-screen according to the position previously set by a manually controlled oriented
+bar (`"Manbar0"`) stimulus. Some initialization code and stimulus parameters are omitted for
+brevity. Comments are preceded by a `#`. More example scripts, one for each stimulus type, can
+be found in the [examples](https://github.com/dimstim/dimstim/tree/master/examples) folder.
