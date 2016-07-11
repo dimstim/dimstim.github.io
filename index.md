@@ -45,7 +45,7 @@ Example script
 
 Here is an example dimstim Python script for a drifting grating experiment:
 
-```python
+{% highlight python %}
 # Static parameters remain constant during the experiment
 s = StaticParams()
 # pre-experiment duration to display blank screen (sec)
@@ -85,7 +85,7 @@ bs = BlankSweeps(T=20, sec=2) # blank sweep every T sweeps for sec seconds
 e = Grating(script=__file__, static=s, dynamic=d, variables=vs,
             runs=runs, blanksweeps=bs) # create a Grating experiment
 e.run() # run the experiment
-```
+{% endhighlight %}
 
 In this example, grating orientation, spatial and temporal frequency are the only 3 parameters
 assigned multiple values, and therefore the only ones to vary from one stimulus "sweep" (6 sec
